@@ -1,0 +1,15 @@
+.wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.header,
+.footer {
+  grid-column: 1 / -1;
+}
+
+section {
+  padding: 2rem 1rem;
+}
